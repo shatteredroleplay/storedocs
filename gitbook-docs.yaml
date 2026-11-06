@@ -15,5 +15,5 @@ site:
           path: docs
           default: true
           content:
-            directory: ./casino
+            directory: ./scripts/casino
             language: en
