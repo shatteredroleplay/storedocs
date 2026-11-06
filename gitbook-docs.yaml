@@ -1,0 +1,46 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: Shattered Store
+  structure:
+    - type: section
+      key: section-store
+      title: Butik
+      path: store
+      default: true
+      children:
+        - type: space
+          key: space-getting-started
+          title: Kom igång
+          path: getting-started
+          default: true
+          content:
+            directory: ./getting-started
+            language: sv
+        - type: space
+          key: space-products
+          title: Produkter
+          path: products
+          content:
+            directory: ./products
+            language: sv
+    - type: section
+      key: section-support
+      title: Support
+      path: support
+      children:
+        - type: space
+          key: space-faq
+          title: Vanliga frågor
+          path: faq
+          default: true
+          content:
+            directory: ./faq
+            language: sv
+        - type: space
+          key: space-terms
+          title: Villkor
+          path: terms
+          content:
+            directory: ./terms
+            language: sv
